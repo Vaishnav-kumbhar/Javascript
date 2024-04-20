@@ -1,0 +1,102 @@
+:root {
+  --card-backgraound-color: #fdfefe;
+  --tex-color: #5dade2;
+  --normal-color: #000;
+  --font-size: 1.5em;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0ebf7;
+}
+
+main {
+  background-color: var(--card-backgraound-color);
+  height: 62%;
+  width: 40%;
+  padding: 20px 10px;
+  border-radius: 20px;
+  box-shadow: 3px 5px 5px 5px rgb(219, 211, 211);
+  margin-top: -20px;
+}
+
+.wrapper > #pics {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  box-shadow: 8px 0px rgb(63, 63, 175);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.job {
+  color: var(--tex-color);
+  font-size: 20px;
+}
+
+#aboutInfo {
+  width: 500px;
+  color: #61a2cd;
+  font-size: 1.2em;
+}
+
+h1 {
+  position: absolute;
+  top: 30px;
+  right: 43%;
+  font-size: 2em;
+  font-weight: 900;
+}
+
+.wrapper > h3 {
+  font-size: var(--font-size);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.i > i {
+  color: #61a2cd;
+}
+
+.i {
+  display: flex;
+  gap: 40px;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 7px;
+}
+
+button {
+  background-color: #61a2cd;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #1a70e8;
+  cursor: pointer;
+}
