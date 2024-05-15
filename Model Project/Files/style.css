@@ -1,0 +1,109 @@
+:root {
+  --normal-color: #000;
+  --btn-color: #1dcaff;
+  --white-color: #fff;
+  --body-bg-color: #49a2fb;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.bg {
+  background-image: url(../Assets/hero.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box {
+  width: 40%;
+  height: 35%;
+  background-color: #fff;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  position: relative;
+  top: -30px;
+}
+
+.box > h1 {
+  text-transform: uppercase;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  word-spacing: 10px;
+}
+
+.modal-btn {
+  background-color: var(--btn-color);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.modal-btn:hover {
+  transition: ease-in-out 1s;
+  transform: translateY(-10%);
+}
+
+.cancel-image {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: -85px;
+  left: 278px;
+}
+
+.cancel-image:hover {
+  transition: 2s;
+  transform: scale(1.5);
+}
+
+.model-overlay {
+  position: fixed;
+  margin-top: -8%;
+  width: 40%;
+  height: 35%;
+  background-color: var(--white-color);
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.model-overlay > h3 {
+  font-size: 2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.model-overlay {
+  display: none;
+}
+
+.hide-box {
+  display: none;
+}
+
+.show-box {
+  display: flex;
+}
+
+/* body backgraound color change */
+.bg-color {
+  background-image: none;
+  background-color: var(--body-bg-color);
+}

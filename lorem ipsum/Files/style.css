@@ -1,0 +1,82 @@
+:root {
+  --white-color: #fff;
+  --body-back-color: #f6f4f4;
+  --heading-color: #3903fc;
+  --btn-back-color: #0362fcb8;
+}
+
+/* Global styles */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  background-color: var(--body-back-color);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+main > h1 {
+  word-spacing: 5px;
+  letter-spacing: 4px;
+  font-size: 1.5rem;
+  color: var(--heading-color);
+}
+
+#input-section {
+  margin-top: 2rem;
+  display: flex;
+  gap: 5px;
+}
+
+#input-section > label {
+  font-weight: 100;
+  letter-spacing: 5px;
+  margin-top: 5px;
+}
+
+input {
+  width: 4rem;
+  border-radius: 10rem;
+  text-align: center;
+  background-color: var(--white-color);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+#genrate-Btn {
+  padding: 8px 10px;
+  text-align: center;
+  background-color: var(--btn-back-color);
+  border: none;
+  border-radius: 10px;
+  letter-spacing: 3px;
+}
+
+#genrate-Btn:hover {
+  background-color: #0362fc68;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  color: var(--white-color);
+}
+#genrate-Btn:active {
+  border: 4px solid #000;
+  background-color: var(--white-color);
+  color: #000;
+}
+
+#lorem {
+  width: 25rem;
+  margin-top: 2rem;
+  word-spacing: 0.7rem;
+}
+
+#result {
+  margin-bottom: 2rem;
+}
