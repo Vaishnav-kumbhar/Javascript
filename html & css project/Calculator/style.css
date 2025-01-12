@@ -1,0 +1,219 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* designing the body */
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(20deg, rgb(53, 53, 103), rgb(156, 237, 247));
+}
+
+/* designing the main container */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #140b0b;
+  max-width: 400px;
+  padding: 30px;
+  background-color: hsl(180, 4%, 15%);
+  height: 60vh;
+  border-radius: 10%;
+}
+
+#display {
+  border: 2px solid #000;
+  width: 220px;
+  height: 50px;
+  text-align: center;
+  margin: -10px 0px 0px 50px;
+  background-color: #fff;
+}
+
+#displayResult {
+  margin: 10px;
+  color: #000;
+  font-weight: 900;
+  font-size: 1.5em;
+}
+
+#secondary-container {
+  display: flex;
+  gap: 50px;
+  margin-top: 5%;
+  font-weight: 900;
+}
+
+#nine {
+  border: 2px solid #000;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  background-color: #fff;
+}
+
+#eight {
+  border: 2px solid #000;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  background-color: #fff;
+}
+
+#seven {
+  border: 2px solid #000;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  background-color: #fff;
+}
+
+#third-container {
+  display: flex;
+  gap: 50px;
+  margin-top: 5%;
+  text-align: center;
+  font-weight: 900;
+}
+
+#six {
+  border: 2px solid #000;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  background-color: #fff;
+}
+
+#five {
+  border: 2px solid #000;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  background-color: #fff;
+}
+
+#four {
+  border: 2px solid #000;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  background-color: #fff;
+  /* font-weight: 900; */
+}
+
+#fourth-container {
+  display: flex;
+  gap: 50px;
+  margin-top: 5%;
+}
+
+#three {
+  border: 2px solid #000;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  background-color: #fff;
+  font-weight: 900;
+}
+
+#two {
+  border: 2px solid #000;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  background-color: #fff;
+  font-weight: 900;
+}
+
+#one {
+  border: 2px solid #000;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  background-color: #fff;
+  font-weight: 900;
+}
+
+#addition {
+  border: 2px solid #000;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  background-color: #fff;
+  font-weight: 900;
+}
+#subtraction {
+  border: 2px solid #000;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  background-color: #fff;
+  font-weight: 900;
+}
+#divide {
+  border: 2px solid #000;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  background-color: #fff;
+  font-weight: 900;
+}
+#mulitply {
+  border: 2px solid #000;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  background-color: #fff;
+  font-weight: 900;
+}
+
+#zero {
+  border: 2px solid #000;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  background-color: #fff;
+  font-weight: 900;
+}
+
+#fifth-container {
+  display: flex;
+  gap: 50px;
+  margin-top: 5%;
+}
+
+.op {
+  border: 2px solid #000;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  background-color: #fff;
+  font-weight: 900;
+}
+
+.dot {
+  border: 2px solid #000;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  background-color: #fff;
+  font-weight: 900;
+}
+
+#equal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border: 2px solid #000;
+  height: 30px;
+  width: 80px;
+  margin: 15% 0px 0px 38%;
+  background-color: #fb9902;
+  font-weight: 900;
+}

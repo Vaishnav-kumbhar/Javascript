@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>radio card</title>
+    <!--link css-->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- creating a div for wrapper -->
+    <div class="wrapper">
+      <div id="hamburger">
+        <!-- BAR icon -->
+        <i class="fa-solid fa-bars"></i>
+        <h2>FM RADIO</h2>
+        <!-- power off icon -->
+        <i class="fa-solid fa-power-off"></i>
+      </div>
+      <div id="root-circle">
+        <h3>Mojjo Radio</h3>
+        <div id="child-circle">
+          <!-- less than icon -->
+          <i class="fa-regular fa-less-than"></i>
+          <div id="circle"></div>
+          <!-- greater than icon -->
+          <i class="fa-solid fa-greater-than"></i>
+        </div>
+        <!-- music icon -->
+        <i class="fa-solid fa-music"></i>
+      </div>
+      <div id="sqaure">
+         <p id="lines">|||||||||||||||||||||||||||||||||||||||||||||</p>
+        <hr id="horiontal-line" />
+        <p id="numbers">87 &nbsp 88 &nbsp 90 &nbsp 91 &nbsp 92 &nbsp 93 &nbsp 94 &nbsp 95</p>
+      </div>
+      <div id="black-sqaure">
+        <p>Stations</p>
+        <p id="last-line">
+          if no stations are loaded here it is due to an issue with the API feed
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
