@@ -1,0 +1,93 @@
+:root {
+  --primary: #3b93f8;
+  --buttonBack: #3678b9;
+  --button: #fff;
+  --specifBtn: #df4625;
+  --display: #020c16;
+  --backgraound: #20456b;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  outline: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  height: 100dvh;
+  width: 100vw;
+  background-color: var(--primary);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  gap: 20px;
+  height: 60vh;
+  width: 20%;
+  position: relative;
+  left: 40%;
+  background-color: var(--backgraound);
+  border-radius: 15px;
+  box-shadow: -15px 5px rgb(183, 209, 223);
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 900;
+  color: var(--button);
+}
+
+#Wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+#display {
+  height: 7vh;
+  width: 11.5vw;
+  border: 2px solid;
+  background-color: var(--display);
+  text-align: center;
+  color: var(--button);
+  padding-top: 10px;
+  font-size: 1.5em;
+}
+
+#btn-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.btn {
+  height: 40px;
+  width: 40px;
+  font-size: 1.5em;
+  font-weight: 600;
+  background-color: var(--buttonBack);
+  color: var(--button);
+  border: none;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.orange {
+  background-color: var(--specifBtn);
+}
